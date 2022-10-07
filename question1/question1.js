@@ -20,3 +20,7 @@ const mixedArr = ["PIZZA", 10, true, 25, false, "Wings"];
 lowerCaseWords(mixedArr)
   .then((value) => console.log(value))
   .catch((error) => console.log(error));
+
+  lowerCaseWords([1, 3, 4]])
+  .then((value) => console.log(value))
+  .catch((error) => console.log(error));
